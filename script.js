@@ -20,3 +20,6 @@ themeToggle.addEventListener("click", () => {
 if (localStorage.getItem("portfolio-theme") === "dark") {
   document.body.classList.add("dark");
 }
+document.getElementById("demoBtn").addEventListener("click", function() {
+  document.getElementById("demoText").textContent = "JavaScript made this text appear!";
+});
